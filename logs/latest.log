@@ -1,0 +1,281 @@
+[15:55:56] [main/INFO]: Loading Minecraft 1.21.1 with Fabric Loader 0.17.2
+[15:55:58] [main/INFO]: Loading 100 mods:
+	- additionalstructures 5.1.0-fabric
+	- biomesoplenty 21.1.0.12
+	- c2me 0.3.0+alpha.0.320+1.21.1
+	   |-- c2me-base 0.3.0+alpha.0.320+1.21.1
+	   |-- c2me-client-uncapvd 0.3.0+alpha.0.320+1.21.1
+	   |-- c2me-fixes-chunkio-threading-issues 0.3.0+alpha.0.320+1.21.1
+	   |-- c2me-fixes-general-threading-issues 0.3.0+alpha.0.320+1.21.1
+	   |-- c2me-fixes-worldgen-threading-issues 0.3.0+alpha.0.320+1.21.1
+	   |-- c2me-fixes-worldgen-vanilla-bugs 0.3.0+alpha.0.320+1.21.1
+	   |-- c2me-notickvd 0.3.0+alpha.0.320+1.21.1
+	   |-- c2me-opts-allocs 0.3.0+alpha.0.320+1.21.1
+	   |-- c2me-opts-chunk-access 0.3.0+alpha.0.320+1.21.1
+	   |-- c2me-opts-chunkio 0.3.0+alpha.0.320+1.21.1
+	   |-- c2me-opts-dfc 0.3.0+alpha.0.320+1.21.1
+	   |-- c2me-opts-math 0.3.0+alpha.0.320+1.21.1
+	   |-- c2me-opts-scheduling 0.3.0+alpha.0.320+1.21.1
+	   |-- c2me-opts-worldgen-general 0.3.0+alpha.0.320+1.21.1
+	   |-- c2me-opts-worldgen-vanilla 0.3.0+alpha.0.320+1.21.1
+	   |-- c2me-rewrites-chunk-serializer 0.3.0+alpha.0.320+1.21.1
+	   |-- c2me-rewrites-chunk-system 0.3.0+alpha.0.320+1.21.1
+	   |-- c2me-rewrites-chunkio 0.3.0+alpha.0.320+1.21.1
+	   |-- c2me-server-utils 0.3.0+alpha.0.320+1.21.1
+	   |-- c2me-threading-lighting 0.3.0+alpha.0.320+1.21.1
+	   |-- com_ibm_async_asyncutil 0.1.0
+	   |-- io_reactivex_rxjava3_rxjava 3.1.8
+	   |-- mixinsquared 0.2.0-beta.6
+	   |-- net_objecthunter_exp4j 0.4.8
+	   |-- org_jctools_jctools-core 4.0.5
+	   \-- org_reactivestreams_reactive-streams 1.0.4
+	- cardinal-components 6.1.2
+	   |-- cardinal-components-base 6.1.2
+	   |-- cardinal-components-block 6.1.2
+	   |-- cardinal-components-chunk 6.1.2
+	   |-- cardinal-components-entity 6.1.2
+	   |-- cardinal-components-item 6.1.2
+	   |-- cardinal-components-level 6.1.2
+	   |-- cardinal-components-scoreboard 6.1.2
+	   \-- cardinal-components-world 6.1.2
+	- cloth-config 15.0.140
+	   \-- cloth-basic-math 0.6.1
+	- creativecore 2.13.11
+	   \-- net_neoforged_bus 7.2.0
+	- cristellib 1.2.8
+	   \-- blue_endless_jankson 1.2.3
+	- ctov 3.5.10
+	- fabric-api 0.116.6+1.21.1
+	   |-- fabric-api-base 0.4.42+6573ed8c19
+	   |-- fabric-api-lookup-api-v1 1.6.71+b559734419
+	   |-- fabric-biome-api-v1 13.0.31+d527f9fd19
+	   |-- fabric-block-api-v1 1.1.0+0bc3503219
+	   |-- fabric-block-view-api-v2 1.0.11+ebb2264e19
+	   |-- fabric-blockrenderlayer-v1 1.1.52+0af3f5a719
+	   |-- fabric-client-tags-api-v1 1.1.15+6573ed8c19
+	   |-- fabric-command-api-v1 1.2.49+f71b366f19
+	   |-- fabric-command-api-v2 2.2.28+6ced4dd919
+	   |-- fabric-commands-v0 0.2.66+df3654b319
+	   |-- fabric-content-registries-v0 8.0.19+b559734419
+	   |-- fabric-convention-tags-v1 2.1.5+7f945d5b19
+	   |-- fabric-convention-tags-v2 2.11.1+a406e79519
+	   |-- fabric-crash-report-info-v1 0.2.29+0af3f5a719
+	   |-- fabric-data-attachment-api-v1 1.4.5+6116a37819
+	   |-- fabric-data-generation-api-v1 20.2.33+37516cd619
+	   |-- fabric-dimensions-v1 4.0.1+65213ef819
+	   |-- fabric-entity-events-v1 1.8.0+2b27e0a419
+	   |-- fabric-events-interaction-v0 0.7.13+ba9dae0619
+	   |-- fabric-game-rule-api-v1 1.0.53+6ced4dd919
+	   |-- fabric-item-api-v1 11.2.0+3b3cb2e819
+	   |-- fabric-item-group-api-v1 4.1.7+def88e3a19
+	   |-- fabric-key-binding-api-v1 1.0.47+0af3f5a719
+	   |-- fabric-keybindings-v0 0.2.45+df3654b319
+	   |-- fabric-lifecycle-events-v1 2.6.0+0865547519
+	   |-- fabric-loot-api-v2 3.0.15+3f89f5a519
+	   |-- fabric-loot-api-v3 1.0.3+3f89f5a519
+	   |-- fabric-message-api-v1 6.0.14+8aaf3aca19
+	   |-- fabric-model-loading-api-v1 2.1.0+b4d813fc19
+	   |-- fabric-networking-api-v1 4.3.0+c7469b2119
+	   |-- fabric-object-builder-api-v1 15.2.1+40875a9319
+	   |-- fabric-particles-v1 4.0.2+6573ed8c19
+	   |-- fabric-recipe-api-v1 5.0.14+248df81c19
+	   |-- fabric-registry-sync-v0 5.3.1+e3eddc2119
+	   |-- fabric-renderer-api-v1 3.4.1+b4d813fc19
+	   |-- fabric-renderer-indigo 1.7.1+c705a49c19
+	   |-- fabric-renderer-registries-v1 3.2.69+df3654b319
+	   |-- fabric-rendering-data-attachment-v1 0.3.49+73761d2e19
+	   |-- fabric-rendering-fluids-v1 3.1.6+1daea21519
+	   |-- fabric-rendering-v0 1.1.72+df3654b319
+	   |-- fabric-rendering-v1 5.1.0+ab4c25a019
+	   |-- fabric-resource-conditions-api-v1 4.3.0+8dc279b119
+	   |-- fabric-resource-loader-v0 1.3.1+5b5275af19
+	   |-- fabric-screen-api-v1 2.0.25+8b68f1c719
+	   |-- fabric-screen-handler-api-v1 1.3.90+b559734419
+	   |-- fabric-sound-api-v1 1.0.23+6573ed8c19
+	   |-- fabric-transfer-api-v1 5.4.3+c24bd99419
+	   \-- fabric-transitive-access-wideners-v1 6.2.0+45b9699719
+	- fabricloader 0.17.2
+	   \-- mixinextras 0.5.0
+	- glitchcore 2.1.0.0
+	   |-- com_electronwill_night-config_core 3.6.7
+	   |-- com_electronwill_night-config_toml 3.6.7
+	   \-- net_jodah_typetools 0.6.3
+	- java 21
+	- jei 19.22.1.316
+	- lithium 0.15.0+mc1.21.1
+	- lithostitched 1.4.11
+	- lootr 1.21-1.10.35.91
+	- minecraft 1.21.1
+	- noisium 2.3.0+mc1.21-1.21.1
+	- splinecart 0.3.1+1.21.1
+	- t_and_t 1.13.2
+	- tectonic 3.0.12
+	- terrablender 4.1.0.8
+	   |-- com_electronwill_night-config_core 3.6.7
+	   \-- com_electronwill_night-config_toml 3.6.7
+	- travelersbackpack 10.1.24
+	- xaerominimap 25.2.10
+[15:55:59] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/codespaces-blank/minecraft-extra-mods/libraries/net/fabricmc/sponge-mixin/0.16.3+mixin.0.8.7/sponge-mixin-0.16.3+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[15:55:59] [main/INFO]: Compatibility level set to JAVA_17
+[15:55:59] [main/INFO]: Compatibility level set to JAVA_21
+[15:56:00] [main/INFO]: Initializing com.ishland.c2me.base.mixin
+[15:56:00] [main/INFO]: Global Executor Parallelism: 1 configured, 1 evaluated, 1 default evaluated
+[15:56:00] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
+[15:56:00] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
+[15:56:00] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
+[15:56:00] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
+[15:56:00] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
+[15:56:00] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
+[15:56:00] [main/INFO]: Initializing com.ishland.c2me.opts.chunk_access.mixin
+[15:56:00] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
+[15:56:00] [main/INFO]: Initializing com.ishland.c2me.opts.dfc.mixin
+[15:56:00] [main/INFO]: Disabling com.ishland.c2me.opts.dfc.mixin
+[15:56:00] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
+[15:56:00] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
+[15:56:00] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
+[15:56:00] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
+[15:56:00] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
+[15:56:00] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
+[15:56:00] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunksystem.mixin
+[15:56:00] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
+[15:56:00] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
+[15:56:00] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
+[15:56:00] [main/WARN]: Reference map '[common]ctov-common-refmap.json' for ctov-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[15:56:00] [main/INFO]: Option 'mixin.entity.collisions.fluid' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.entity.collisions.fluid=false'.
+[15:56:00] [main/INFO]: Option 'mixin.experimental.entity.block_caching.block_support' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.block_support=false'.
+[15:56:00] [main/INFO]: Option 'mixin.experimental.entity.block_caching.fluid_pushing' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.fluid_pushing=false'.
+[15:56:00] [main/INFO]: Option 'mixin.experimental.entity.block_caching.block_touching' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.block_touching=false'.
+[15:56:00] [main/INFO]: Option 'mixin.experimental.entity.block_caching.suffocation' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.suffocation=false'.
+[15:56:00] [main/INFO]: Option 'mixin.experimental.entity.block_caching' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching=false'.
+[15:56:00] [main/INFO]: Loaded configuration file for Lithium: 149 options available, 0 override(s) found
+[15:56:00] [main/WARN]: Error loading class: ca/spottedleaf/starlight/common/thread/SchedulingUtil (java.lang.ClassNotFoundException: ca/spottedleaf/starlight/common/thread/SchedulingUtil)
+[15:56:01] [main/WARN]: Error loading class: net/fabricmc/fabric/api/client/rendering/v1/EntityModelLayerRegistry$TexturedModelDataProvider (java.lang.ClassNotFoundException: net/fabricmc/fabric/api/client/rendering/v1/EntityModelLayerRegistry$TexturedModelDataProvider)
+[15:56:01] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[15:56:09] [main/ERROR]: No data fixer registered for biomesoplenty:boat
+[15:56:09] [main/ERROR]: No data fixer registered for biomesoplenty:chest_boat
+[15:56:09] [main/ERROR]: No data fixer registered for anomaly
+[15:56:09] [main/INFO]: Loading Noisium.
+[15:56:09] [main/INFO]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[15:56:09] [main/INFO]: Registered region minecraft:nether to index 0 for type NETHER
+[15:56:09] [main/INFO]: Registered region biomesoplenty:overworld_primary to index 1 for type OVERWORLD
+[15:56:09] [main/INFO]: Registered region biomesoplenty:overworld_secondary to index 2 for type OVERWORLD
+[15:56:09] [main/INFO]: Registered region biomesoplenty:overworld_rare to index 3 for type OVERWORLD
+[15:56:09] [main/INFO]: Registered region biomesoplenty:nether_common to index 1 for type NETHER
+[15:56:09] [main/INFO]: Registered region biomesoplenty:nether_rare to index 2 for type NETHER
+[15:56:09] [main/ERROR]: No data fixer registered for 
+[15:56:10] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 81000) with the ID 0
+[15:56:10] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 81000) with the ID 1
+[15:56:10] [main/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for block.travelersbackpack.potion_still (Fluid Amount Required: 27000) with the ID 2
+[15:56:10] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:milk for Air (Fluid Amount Required: 81000) with the ID 3
+[15:56:10] [main/INFO]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[15:56:10] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[15:56:12] [main/INFO]: Loaded 1738 recipes
+[15:56:13] [main/INFO]: Loaded 1855 advancements
+[15:56:14] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[15:56:14] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:the_nether
+[15:56:14] [main/INFO]: Applied 0 biome modifications to 0 of 134 new biomes in 1.606 ms
+[15:56:14] [Server thread/INFO]: Starting minecraft server version 1.21.1
+[15:56:14] [Server thread/INFO]: Loading properties
+[15:56:14] [Server thread/INFO]: Default game type: SURVIVAL
+[15:56:14] [Server thread/INFO]: Generating keypair
+[15:56:14] [Server thread/INFO]: Starting Minecraft server on *:25565
+[15:56:14] [Server thread/INFO]: Using epoll channel type
+[15:56:14] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[15:56:14] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[15:56:14] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[15:56:14] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[15:56:14] [Server thread/INFO]: Preparing level "world"
+[15:56:14] [Server thread/INFO]: Enforcing safe world random access
+[15:56:15] [Server thread/INFO]: Using TheSpeedyObjectFactory with Unsafe
+[15:56:21] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[15:56:22] [c2me-worker-0/INFO]: Preparing spawn area: 0%
+[15:56:22] [c2me-worker-0/INFO]: Preparing spawn area: 0%
+[15:56:23] [c2me-worker-0/INFO]: Preparing spawn area: 6%
+[15:56:23] [c2me-worker-0/INFO]: Preparing spawn area: 6%
+[15:56:23] [c2me-worker-0/INFO]: Preparing spawn area: 6%
+[15:56:24] [minecraft_overworld - Light/INFO]: Preparing spawn area: 63%
+[15:56:24] [Server thread/INFO]: Time elapsed: 2840 ms
+[15:56:24] [Server thread/INFO]: Done (10.235s)! For help, type "help"
+[15:56:24] [Server thread/INFO]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[15:59:23] [Server thread/INFO]: [STDOUT]: Lithium Cached BlockState Flags are disabled!
+[15:59:23] [Server thread/INFO]: aj[/127.0.0.1:43582] logged in with entity id 7 at (-992.738570401839, -15.0, 156.76249998807907)
+[15:59:23] [Server thread/INFO]: Loading config from file...
+[15:59:23] [Server thread/INFO]: aj joined the game
+[16:01:15] [Server thread/INFO]: Bhnklnd[/127.0.0.1:49814] logged in with entity id 577 at (-992.0670862562431, -14.5, 156.21853255740405)
+[16:01:15] [Server thread/INFO]: Loading config from file...
+[16:01:15] [Server thread/INFO]: Bhnklnd joined the game
+[16:05:16] [Server thread/INFO]: [Bhnklnd: Teleported Bhnklnd to 507.500000, 85.000000, 115.500000]
+[16:05:23] [Server thread/INFO]: [Bhnklnd: Teleported aj to Bhnklnd]
+[16:09:59] [Server thread/INFO]: [Bhnklnd: Gave 1 [Pig Spawn Egg] to Bhnklnd]
+[16:32:40] [Server thread/INFO]: [Bhnklnd: Gave 1 [Observer] to Bhnklnd]
+[16:46:39] [Server thread/INFO]: [Bhnklnd: Teleported Bhnklnd to aj]
+[16:46:39] [Server thread/WARN]: Bhnklnd moved too quickly! -9.926236451987393,5.0,-119.80485921594263
+[16:49:29] [Server thread/INFO]: [Not Secure] <aj> csll
+[16:50:14] [Server thread/INFO]: [Bhnklnd: Set own game mode to Spectator Mode]
+[16:50:27] [Server thread/INFO]: [Bhnklnd: Set own game mode to Survival Mode]
+[16:54:04] [Server thread/INFO]: [Not Secure] <aj> dio rite tode kyaaaaaaaaaaaaaaa
+[16:57:09] [Server thread/INFO]: [Not Secure] <Bhnklnd> cal
+[16:57:14] [Server thread/INFO]: [Not Secure] <aj> okkk niges
+[16:57:22] [c2me-worker-0/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
+[16:58:22] [Server thread/INFO]: [Not Secure] <aj> cum niga
+[17:03:41] [Server thread/INFO]: [Bhnklnd: Set own game mode to Spectator Mode]
+[17:03:47] [Server thread/INFO]: [Bhnklnd: Set own game mode to Survival Mode]
+[17:08:54] [Server thread/INFO]: [Bhnklnd: Set own game mode to Spectator Mode]
+[17:09:03] [Server thread/INFO]: [Bhnklnd: Set own game mode to Survival Mode]
+[17:09:07] [Server thread/INFO]: [Bhnklnd: Teleported aj to Bhnklnd]
+[17:09:07] [Server thread/WARN]: aj moved too quickly! -11.651131765459695,39.0,-1.3777485155615636
+[17:12:46] [c2me-worker-0/WARN]: Couldn't find template pool reference: ctov:pillager_outpost/mountain/towers
+[17:36:38] [Server thread/INFO]: aj fell from a high place
+[17:36:38] [Server thread/INFO]: Created new backpack backup file for aj with unique ID travelersbackpack.emerald_23.09.2025-17.36.38.dat
+[17:36:38] [Server thread/INFO]: Created new backpack backup file for aj with unique ID travelersbackpack.emerald_23.09.2025-17.36.38.dat
+[17:36:38] [Server thread/INFO]: Your backpack has been placed at X: 855 Y: -46 Z: 964
+[17:37:05] [Server thread/INFO]: [Bhnklnd: Teleported aj to Bhnklnd]
+[17:48:12] [Server thread/INFO]: [Bhnklnd: Set own game mode to Spectator Mode]
+[17:48:31] [Server thread/INFO]: [Bhnklnd: Set own game mode to Survival Mode]
+[17:48:35] [Server thread/INFO]: [Bhnklnd: Teleported aj to Bhnklnd]
+[17:50:39] [Server thread/INFO]: [Bhnklnd: Set own game mode to Spectator Mode]
+[17:50:57] [Server thread/INFO]: [Bhnklnd: Set own game mode to Survival Mode]
+[17:55:07] [Server thread/INFO]: Bhnklnd has made the advancement [Ol' Betsy]
+[17:57:40] [Server thread/INFO]: [Bhnklnd: Set own game mode to Spectator Mode]
+[17:57:42] [Server thread/INFO]: [Bhnklnd: Set own game mode to Survival Mode]
+[17:57:59] [Server thread/INFO]: [Bhnklnd: Set own game mode to Spectator Mode]
+[17:58:03] [Server thread/INFO]: [Bhnklnd: Set own game mode to Survival Mode]
+[18:08:28] [Server thread/INFO]: [Bhnklnd: Teleported Bhnklnd to 507.500000, 85.000000, 115.500000]
+[18:08:34] [Server thread/INFO]: [Bhnklnd: Teleported aj to Bhnklnd]
+[18:08:34] [Server thread/WARN]: aj moved too quickly! -351.17795401261964,120.0,-845.4524351311582
+[18:25:34] [Server thread/INFO]: aj has made the advancement [Cover Me with Diamonds]
+[18:26:21] [Server thread/INFO]: Bhnklnd has made the advancement [Cover Me with Diamonds]
+[18:29:48] [Server thread/INFO]: Bhnklnd has made the advancement [The Parrots and the Bats]
+[18:35:47] [Server thread/INFO]: Bhnklnd has made the advancement [Best Friends Forever]
+[18:38:14] [Server thread/INFO]: [Not Secure] <aj> call
+[18:40:14] [Server thread/INFO]: Bhnklnd has made the advancement [A Seedy Place]
+[18:40:18] [Server thread/INFO]: [Not Secure] <aj> okkkkkkkkkkkkkkk
+[18:41:24] [Server thread/INFO]: [Not Secure] <aj> ullu bola
+[18:41:33] [Server thread/INFO]: [Not Secure] <Bhnklnd> wow
+[19:02:28] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=360, y=71, z=218} class_2338{x=361, y=69, z=217}
+[19:02:28] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=360, y=71, z=218} class_2338{x=361, y=69, z=217}
+[19:20:27] [Server thread/INFO]: [Bhnklnd: Gave 1 [Flower Pot] to Bhnklnd]
+[19:21:35] [Server thread/INFO]: aj lost connection: Disconnected
+[19:21:35] [Server thread/INFO]: aj left the game
+[19:22:18] [Server thread/INFO]: Bhnklnd lost connection: Disconnected
+[19:22:18] [Server thread/INFO]: Bhnklnd left the game
+[19:22:40] [Server thread/INFO]: Stopping server
+[19:22:40] [Server thread/INFO]: Saving players
+[19:22:40] [Server thread/INFO]: Saving worlds
+[19:22:40] [Server thread/INFO]: ServerLevel[world]/minecraft:overworld: waiting for 841 chunks to unload
+[19:22:40] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[19:22:40] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[19:22:40] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[19:22:40] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[19:22:40] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[19:22:40] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[19:22:40] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[19:22:40] [C2ME Storage #3/INFO]: Storage thread Thread[#55,C2ME Storage #3,5,main] stopped
+[19:22:40] [C2ME Storage #2/INFO]: Storage thread Thread[#54,C2ME Storage #2,5,main] stopped
+[19:22:40] [C2ME Storage #1/INFO]: Storage thread Thread[#53,C2ME Storage #1,5,main] stopped
+[19:22:40] [C2ME Storage #6/INFO]: Storage thread Thread[#60,C2ME Storage #6,5,main] stopped
+[19:22:40] [C2ME Storage #5/INFO]: Storage thread Thread[#59,C2ME Storage #5,5,main] stopped
+[19:22:40] [C2ME Storage #4/INFO]: Storage thread Thread[#58,C2ME Storage #4,5,main] stopped
+[19:22:40] [C2ME Storage #9/INFO]: Storage thread Thread[#64,C2ME Storage #9,5,main] stopped
+[19:22:40] [C2ME Storage #8/INFO]: Storage thread Thread[#63,C2ME Storage #8,5,main] stopped
+[19:22:40] [C2ME Storage #7/INFO]: Storage thread Thread[#62,C2ME Storage #7,5,main] stopped
