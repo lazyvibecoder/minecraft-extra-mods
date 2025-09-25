@@ -1,5 +1,5 @@
-[15:55:56] [main/INFO]: Loading Minecraft 1.21.1 with Fabric Loader 0.17.2
-[15:55:58] [main/INFO]: Loading 100 mods:
+[07:18:55] [main/INFO]: Loading Minecraft 1.21.1 with Fabric Loader 0.17.2
+[07:18:57] [main/INFO]: Loading 100 mods:
 	- additionalstructures 5.1.0-fabric
 	- biomesoplenty 21.1.0.12
 	- c2me 0.3.0+alpha.0.320+1.21.1
@@ -115,167 +115,239 @@
 	   \-- com_electronwill_night-config_toml 3.6.7
 	- travelersbackpack 10.1.24
 	- xaerominimap 25.2.10
-[15:55:59] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/codespaces-blank/minecraft-extra-mods/libraries/net/fabricmc/sponge-mixin/0.16.3+mixin.0.8.7/sponge-mixin-0.16.3+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[15:55:59] [main/INFO]: Compatibility level set to JAVA_17
-[15:55:59] [main/INFO]: Compatibility level set to JAVA_21
-[15:56:00] [main/INFO]: Initializing com.ishland.c2me.base.mixin
-[15:56:00] [main/INFO]: Global Executor Parallelism: 1 configured, 1 evaluated, 1 default evaluated
-[15:56:00] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
-[15:56:00] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
-[15:56:00] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
-[15:56:00] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
-[15:56:00] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
-[15:56:00] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
-[15:56:00] [main/INFO]: Initializing com.ishland.c2me.opts.chunk_access.mixin
-[15:56:00] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
-[15:56:00] [main/INFO]: Initializing com.ishland.c2me.opts.dfc.mixin
-[15:56:00] [main/INFO]: Disabling com.ishland.c2me.opts.dfc.mixin
-[15:56:00] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
-[15:56:00] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
-[15:56:00] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
-[15:56:00] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
-[15:56:00] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
-[15:56:00] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
-[15:56:00] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunksystem.mixin
-[15:56:00] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
-[15:56:00] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
-[15:56:00] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
-[15:56:00] [main/WARN]: Reference map '[common]ctov-common-refmap.json' for ctov-common.mixins.json could not be read. If this is a development environment you can ignore this message
-[15:56:00] [main/INFO]: Option 'mixin.entity.collisions.fluid' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.entity.collisions.fluid=false'.
-[15:56:00] [main/INFO]: Option 'mixin.experimental.entity.block_caching.block_support' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.block_support=false'.
-[15:56:00] [main/INFO]: Option 'mixin.experimental.entity.block_caching.fluid_pushing' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.fluid_pushing=false'.
-[15:56:00] [main/INFO]: Option 'mixin.experimental.entity.block_caching.block_touching' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.block_touching=false'.
-[15:56:00] [main/INFO]: Option 'mixin.experimental.entity.block_caching.suffocation' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.suffocation=false'.
-[15:56:00] [main/INFO]: Option 'mixin.experimental.entity.block_caching' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching=false'.
-[15:56:00] [main/INFO]: Loaded configuration file for Lithium: 149 options available, 0 override(s) found
-[15:56:00] [main/WARN]: Error loading class: ca/spottedleaf/starlight/common/thread/SchedulingUtil (java.lang.ClassNotFoundException: ca/spottedleaf/starlight/common/thread/SchedulingUtil)
-[15:56:01] [main/WARN]: Error loading class: net/fabricmc/fabric/api/client/rendering/v1/EntityModelLayerRegistry$TexturedModelDataProvider (java.lang.ClassNotFoundException: net/fabricmc/fabric/api/client/rendering/v1/EntityModelLayerRegistry$TexturedModelDataProvider)
-[15:56:01] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
-[15:56:09] [main/ERROR]: No data fixer registered for biomesoplenty:boat
-[15:56:09] [main/ERROR]: No data fixer registered for biomesoplenty:chest_boat
-[15:56:09] [main/ERROR]: No data fixer registered for anomaly
-[15:56:09] [main/INFO]: Loading Noisium.
-[15:56:09] [main/INFO]: Registered region minecraft:overworld to index 0 for type OVERWORLD
-[15:56:09] [main/INFO]: Registered region minecraft:nether to index 0 for type NETHER
-[15:56:09] [main/INFO]: Registered region biomesoplenty:overworld_primary to index 1 for type OVERWORLD
-[15:56:09] [main/INFO]: Registered region biomesoplenty:overworld_secondary to index 2 for type OVERWORLD
-[15:56:09] [main/INFO]: Registered region biomesoplenty:overworld_rare to index 3 for type OVERWORLD
-[15:56:09] [main/INFO]: Registered region biomesoplenty:nether_common to index 1 for type NETHER
-[15:56:09] [main/INFO]: Registered region biomesoplenty:nether_rare to index 2 for type NETHER
-[15:56:09] [main/ERROR]: No data fixer registered for 
-[15:56:10] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 81000) with the ID 0
-[15:56:10] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 81000) with the ID 1
-[15:56:10] [main/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for block.travelersbackpack.potion_still (Fluid Amount Required: 27000) with the ID 2
-[15:56:10] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:milk for Air (Fluid Amount Required: 81000) with the ID 3
-[15:56:10] [main/INFO]: Loading Xaero's Minimap - Stage 1/2 (Server)
-[15:56:10] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[15:56:12] [main/INFO]: Loaded 1738 recipes
-[15:56:13] [main/INFO]: Loaded 1855 advancements
-[15:56:14] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:overworld
-[15:56:14] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:the_nether
-[15:56:14] [main/INFO]: Applied 0 biome modifications to 0 of 134 new biomes in 1.606 ms
-[15:56:14] [Server thread/INFO]: Starting minecraft server version 1.21.1
-[15:56:14] [Server thread/INFO]: Loading properties
-[15:56:14] [Server thread/INFO]: Default game type: SURVIVAL
-[15:56:14] [Server thread/INFO]: Generating keypair
-[15:56:14] [Server thread/INFO]: Starting Minecraft server on *:25565
-[15:56:14] [Server thread/INFO]: Using epoll channel type
-[15:56:14] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[15:56:14] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[15:56:14] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[15:56:14] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[15:56:14] [Server thread/INFO]: Preparing level "world"
-[15:56:14] [Server thread/INFO]: Enforcing safe world random access
-[15:56:15] [Server thread/INFO]: Using TheSpeedyObjectFactory with Unsafe
-[15:56:21] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[15:56:22] [c2me-worker-0/INFO]: Preparing spawn area: 0%
-[15:56:22] [c2me-worker-0/INFO]: Preparing spawn area: 0%
-[15:56:23] [c2me-worker-0/INFO]: Preparing spawn area: 6%
-[15:56:23] [c2me-worker-0/INFO]: Preparing spawn area: 6%
-[15:56:23] [c2me-worker-0/INFO]: Preparing spawn area: 6%
-[15:56:24] [minecraft_overworld - Light/INFO]: Preparing spawn area: 63%
-[15:56:24] [Server thread/INFO]: Time elapsed: 2840 ms
-[15:56:24] [Server thread/INFO]: Done (10.235s)! For help, type "help"
-[15:56:24] [Server thread/INFO]: Loading Xaero's Minimap - Stage 2/2 (Server)
-[15:59:23] [Server thread/INFO]: [STDOUT]: Lithium Cached BlockState Flags are disabled!
-[15:59:23] [Server thread/INFO]: aj[/127.0.0.1:43582] logged in with entity id 7 at (-992.738570401839, -15.0, 156.76249998807907)
-[15:59:23] [Server thread/INFO]: Loading config from file...
-[15:59:23] [Server thread/INFO]: aj joined the game
-[16:01:15] [Server thread/INFO]: Bhnklnd[/127.0.0.1:49814] logged in with entity id 577 at (-992.0670862562431, -14.5, 156.21853255740405)
-[16:01:15] [Server thread/INFO]: Loading config from file...
-[16:01:15] [Server thread/INFO]: Bhnklnd joined the game
-[16:05:16] [Server thread/INFO]: [Bhnklnd: Teleported Bhnklnd to 507.500000, 85.000000, 115.500000]
-[16:05:23] [Server thread/INFO]: [Bhnklnd: Teleported aj to Bhnklnd]
-[16:09:59] [Server thread/INFO]: [Bhnklnd: Gave 1 [Pig Spawn Egg] to Bhnklnd]
-[16:32:40] [Server thread/INFO]: [Bhnklnd: Gave 1 [Observer] to Bhnklnd]
-[16:46:39] [Server thread/INFO]: [Bhnklnd: Teleported Bhnklnd to aj]
-[16:46:39] [Server thread/WARN]: Bhnklnd moved too quickly! -9.926236451987393,5.0,-119.80485921594263
-[16:49:29] [Server thread/INFO]: [Not Secure] <aj> csll
-[16:50:14] [Server thread/INFO]: [Bhnklnd: Set own game mode to Spectator Mode]
-[16:50:27] [Server thread/INFO]: [Bhnklnd: Set own game mode to Survival Mode]
-[16:54:04] [Server thread/INFO]: [Not Secure] <aj> dio rite tode kyaaaaaaaaaaaaaaa
-[16:57:09] [Server thread/INFO]: [Not Secure] <Bhnklnd> cal
-[16:57:14] [Server thread/INFO]: [Not Secure] <aj> okkk niges
-[16:57:22] [c2me-worker-0/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
-[16:58:22] [Server thread/INFO]: [Not Secure] <aj> cum niga
-[17:03:41] [Server thread/INFO]: [Bhnklnd: Set own game mode to Spectator Mode]
-[17:03:47] [Server thread/INFO]: [Bhnklnd: Set own game mode to Survival Mode]
-[17:08:54] [Server thread/INFO]: [Bhnklnd: Set own game mode to Spectator Mode]
-[17:09:03] [Server thread/INFO]: [Bhnklnd: Set own game mode to Survival Mode]
-[17:09:07] [Server thread/INFO]: [Bhnklnd: Teleported aj to Bhnklnd]
-[17:09:07] [Server thread/WARN]: aj moved too quickly! -11.651131765459695,39.0,-1.3777485155615636
-[17:12:46] [c2me-worker-0/WARN]: Couldn't find template pool reference: ctov:pillager_outpost/mountain/towers
-[17:36:38] [Server thread/INFO]: aj fell from a high place
-[17:36:38] [Server thread/INFO]: Created new backpack backup file for aj with unique ID travelersbackpack.emerald_23.09.2025-17.36.38.dat
-[17:36:38] [Server thread/INFO]: Created new backpack backup file for aj with unique ID travelersbackpack.emerald_23.09.2025-17.36.38.dat
-[17:36:38] [Server thread/INFO]: Your backpack has been placed at X: 855 Y: -46 Z: 964
-[17:37:05] [Server thread/INFO]: [Bhnklnd: Teleported aj to Bhnklnd]
-[17:48:12] [Server thread/INFO]: [Bhnklnd: Set own game mode to Spectator Mode]
-[17:48:31] [Server thread/INFO]: [Bhnklnd: Set own game mode to Survival Mode]
-[17:48:35] [Server thread/INFO]: [Bhnklnd: Teleported aj to Bhnklnd]
-[17:50:39] [Server thread/INFO]: [Bhnklnd: Set own game mode to Spectator Mode]
-[17:50:57] [Server thread/INFO]: [Bhnklnd: Set own game mode to Survival Mode]
-[17:55:07] [Server thread/INFO]: Bhnklnd has made the advancement [Ol' Betsy]
-[17:57:40] [Server thread/INFO]: [Bhnklnd: Set own game mode to Spectator Mode]
-[17:57:42] [Server thread/INFO]: [Bhnklnd: Set own game mode to Survival Mode]
-[17:57:59] [Server thread/INFO]: [Bhnklnd: Set own game mode to Spectator Mode]
-[17:58:03] [Server thread/INFO]: [Bhnklnd: Set own game mode to Survival Mode]
-[18:08:28] [Server thread/INFO]: [Bhnklnd: Teleported Bhnklnd to 507.500000, 85.000000, 115.500000]
-[18:08:34] [Server thread/INFO]: [Bhnklnd: Teleported aj to Bhnklnd]
-[18:08:34] [Server thread/WARN]: aj moved too quickly! -351.17795401261964,120.0,-845.4524351311582
-[18:25:34] [Server thread/INFO]: aj has made the advancement [Cover Me with Diamonds]
-[18:26:21] [Server thread/INFO]: Bhnklnd has made the advancement [Cover Me with Diamonds]
-[18:29:48] [Server thread/INFO]: Bhnklnd has made the advancement [The Parrots and the Bats]
-[18:35:47] [Server thread/INFO]: Bhnklnd has made the advancement [Best Friends Forever]
-[18:38:14] [Server thread/INFO]: [Not Secure] <aj> call
-[18:40:14] [Server thread/INFO]: Bhnklnd has made the advancement [A Seedy Place]
-[18:40:18] [Server thread/INFO]: [Not Secure] <aj> okkkkkkkkkkkkkkk
-[18:41:24] [Server thread/INFO]: [Not Secure] <aj> ullu bola
-[18:41:33] [Server thread/INFO]: [Not Secure] <Bhnklnd> wow
-[19:02:28] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=360, y=71, z=218} class_2338{x=361, y=69, z=217}
-[19:02:28] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=360, y=71, z=218} class_2338{x=361, y=69, z=217}
-[19:20:27] [Server thread/INFO]: [Bhnklnd: Gave 1 [Flower Pot] to Bhnklnd]
-[19:21:35] [Server thread/INFO]: aj lost connection: Disconnected
-[19:21:35] [Server thread/INFO]: aj left the game
-[19:22:18] [Server thread/INFO]: Bhnklnd lost connection: Disconnected
-[19:22:18] [Server thread/INFO]: Bhnklnd left the game
-[19:22:40] [Server thread/INFO]: Stopping server
-[19:22:40] [Server thread/INFO]: Saving players
-[19:22:40] [Server thread/INFO]: Saving worlds
-[19:22:40] [Server thread/INFO]: ServerLevel[world]/minecraft:overworld: waiting for 841 chunks to unload
-[19:22:40] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[19:22:40] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[19:22:40] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[19:22:40] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[19:22:40] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[19:22:40] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[19:22:40] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[19:22:40] [C2ME Storage #3/INFO]: Storage thread Thread[#55,C2ME Storage #3,5,main] stopped
-[19:22:40] [C2ME Storage #2/INFO]: Storage thread Thread[#54,C2ME Storage #2,5,main] stopped
-[19:22:40] [C2ME Storage #1/INFO]: Storage thread Thread[#53,C2ME Storage #1,5,main] stopped
-[19:22:40] [C2ME Storage #6/INFO]: Storage thread Thread[#60,C2ME Storage #6,5,main] stopped
-[19:22:40] [C2ME Storage #5/INFO]: Storage thread Thread[#59,C2ME Storage #5,5,main] stopped
-[19:22:40] [C2ME Storage #4/INFO]: Storage thread Thread[#58,C2ME Storage #4,5,main] stopped
-[19:22:40] [C2ME Storage #9/INFO]: Storage thread Thread[#64,C2ME Storage #9,5,main] stopped
-[19:22:40] [C2ME Storage #8/INFO]: Storage thread Thread[#63,C2ME Storage #8,5,main] stopped
-[19:22:40] [C2ME Storage #7/INFO]: Storage thread Thread[#62,C2ME Storage #7,5,main] stopped
+[07:18:57] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/codespaces-blank/minecraft-extra-mods/libraries/net/fabricmc/sponge-mixin/0.16.3+mixin.0.8.7/sponge-mixin-0.16.3+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[07:18:58] [main/INFO]: Compatibility level set to JAVA_17
+[07:18:58] [main/INFO]: Compatibility level set to JAVA_21
+[07:18:58] [main/INFO]: Initializing com.ishland.c2me.base.mixin
+[07:18:58] [main/INFO]: Global Executor Parallelism: 1 configured, 1 evaluated, 1 default evaluated
+[07:18:58] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
+[07:18:58] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
+[07:18:58] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
+[07:18:58] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
+[07:18:58] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
+[07:18:58] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
+[07:18:58] [main/INFO]: Initializing com.ishland.c2me.opts.chunk_access.mixin
+[07:18:58] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
+[07:18:58] [main/INFO]: Initializing com.ishland.c2me.opts.dfc.mixin
+[07:18:58] [main/INFO]: Disabling com.ishland.c2me.opts.dfc.mixin
+[07:18:58] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
+[07:18:58] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
+[07:18:58] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
+[07:18:58] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
+[07:18:58] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
+[07:18:58] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
+[07:18:58] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunksystem.mixin
+[07:18:58] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
+[07:18:58] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
+[07:18:58] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
+[07:18:58] [main/WARN]: Reference map '[common]ctov-common-refmap.json' for ctov-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[07:18:58] [main/INFO]: Option 'mixin.entity.collisions.fluid' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.entity.collisions.fluid=false'.
+[07:18:58] [main/INFO]: Option 'mixin.experimental.entity.block_caching.block_support' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.block_support=false'.
+[07:18:58] [main/INFO]: Option 'mixin.experimental.entity.block_caching.fluid_pushing' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.fluid_pushing=false'.
+[07:18:58] [main/INFO]: Option 'mixin.experimental.entity.block_caching.block_touching' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.block_touching=false'.
+[07:18:58] [main/INFO]: Option 'mixin.experimental.entity.block_caching.suffocation' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.suffocation=false'.
+[07:18:58] [main/INFO]: Option 'mixin.experimental.entity.block_caching' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching=false'.
+[07:18:58] [main/INFO]: Loaded configuration file for Lithium: 149 options available, 0 override(s) found
+[07:18:59] [main/WARN]: Error loading class: ca/spottedleaf/starlight/common/thread/SchedulingUtil (java.lang.ClassNotFoundException: ca/spottedleaf/starlight/common/thread/SchedulingUtil)
+[07:18:59] [main/WARN]: Error loading class: net/fabricmc/fabric/api/client/rendering/v1/EntityModelLayerRegistry$TexturedModelDataProvider (java.lang.ClassNotFoundException: net/fabricmc/fabric/api/client/rendering/v1/EntityModelLayerRegistry$TexturedModelDataProvider)
+[07:18:59] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[07:19:07] [main/ERROR]: No data fixer registered for biomesoplenty:boat
+[07:19:07] [main/ERROR]: No data fixer registered for biomesoplenty:chest_boat
+[07:19:07] [main/ERROR]: No data fixer registered for anomaly
+[07:19:07] [main/INFO]: Loading Noisium.
+[07:19:07] [main/INFO]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[07:19:07] [main/INFO]: Registered region minecraft:nether to index 0 for type NETHER
+[07:19:07] [main/INFO]: Registered region biomesoplenty:overworld_primary to index 1 for type OVERWORLD
+[07:19:07] [main/INFO]: Registered region biomesoplenty:overworld_secondary to index 2 for type OVERWORLD
+[07:19:07] [main/INFO]: Registered region biomesoplenty:overworld_rare to index 3 for type OVERWORLD
+[07:19:07] [main/INFO]: Registered region biomesoplenty:nether_common to index 1 for type NETHER
+[07:19:07] [main/INFO]: Registered region biomesoplenty:nether_rare to index 2 for type NETHER
+[07:19:07] [main/ERROR]: No data fixer registered for 
+[07:19:08] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 81000) with the ID 0
+[07:19:08] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 81000) with the ID 1
+[07:19:08] [main/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for block.travelersbackpack.potion_still (Fluid Amount Required: 27000) with the ID 2
+[07:19:08] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:milk for Air (Fluid Amount Required: 81000) with the ID 3
+[07:19:08] [main/INFO]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[07:19:08] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[07:19:10] [main/INFO]: Loaded 1738 recipes
+[07:19:11] [main/INFO]: Loaded 1855 advancements
+[07:19:11] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:the_nether
+[07:19:12] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[07:19:12] [main/INFO]: Applied 0 biome modifications to 0 of 134 new biomes in 2.083 ms
+[07:19:12] [Server thread/INFO]: Starting minecraft server version 1.21.1
+[07:19:12] [Server thread/INFO]: Loading properties
+[07:19:12] [Server thread/INFO]: Default game type: SURVIVAL
+[07:19:12] [Server thread/INFO]: Generating keypair
+[07:19:12] [Server thread/INFO]: Starting Minecraft server on *:25565
+[07:19:12] [Server thread/INFO]: Using epoll channel type
+[07:19:12] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[07:19:12] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[07:19:12] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[07:19:12] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[07:19:12] [Server thread/INFO]: Preparing level "world"
+[07:19:12] [Server thread/INFO]: Enforcing safe world random access
+[07:19:13] [Server thread/INFO]: Using TheSpeedyObjectFactory with Unsafe
+[07:19:19] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[07:19:20] [c2me-worker-0/INFO]: Preparing spawn area: 0%
+[07:19:20] [c2me-worker-0/INFO]: Preparing spawn area: 0%
+[07:19:20] [c2me-worker-0/INFO]: Preparing spawn area: 2%
+[07:19:21] [c2me-worker-0/INFO]: Preparing spawn area: 4%
+[07:19:21] [c2me-worker-0/INFO]: Preparing spawn area: 12%
+[07:19:22] [Server thread/INFO]: Time elapsed: 2465 ms
+[07:19:22] [Server thread/INFO]: Done (9.990s)! For help, type "help"
+[07:19:22] [Server thread/INFO]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[07:21:41] [Server thread/INFO]: [STDOUT]: Lithium Cached BlockState Flags are disabled!
+[07:21:41] [Server thread/INFO]: aj[/127.0.0.1:55400] logged in with entity id 7 at (459.91471178086107, 65.0, 258.1348505724871)
+[07:21:41] [Server thread/INFO]: Loading config from file...
+[07:21:41] [Server thread/INFO]: aj joined the game
+[07:24:21] [Server thread/INFO]: Bhnklnd[/127.0.0.1:54746] logged in with entity id 615 at (482.69999998807907, 72.0, 234.20799155644934)
+[07:24:21] [Server thread/INFO]: Loading config from file...
+[07:24:21] [Server thread/INFO]: Bhnklnd joined the game
+[07:24:41] [Server thread/INFO]: [Not Secure] <Bhnklnd> kya re
+[07:24:46] [Server thread/INFO]: [Not Secure] <aj> kayyyyyyyyyyyerer
+[07:27:07] [Server thread/INFO]: Bhnklnd lost connection: Disconnected
+[07:27:07] [Server thread/INFO]: Bhnklnd left the game
+[07:30:06] [Server thread/INFO]: Bhnklnd[/127.0.0.1:56806] logged in with entity id 1619 at (463.83629140279953, 72.0, 225.73785409571923)
+[07:30:06] [Server thread/INFO]: Loading config from file...
+[07:30:06] [Server thread/INFO]: Bhnklnd joined the game
+[07:33:37] [Server thread/INFO]: Bhnklnd lost connection: Disconnected
+[07:33:37] [Server thread/INFO]: Bhnklnd left the game
+[07:34:26] [Server thread/INFO]: Bhnklnd[/127.0.0.1:50470] logged in with entity id 2624 at (474.3433069138242, 69.0, 263.4817341716768)
+[07:34:26] [Server thread/INFO]: Loading config from file...
+[07:34:26] [Server thread/INFO]: Bhnklnd joined the game
+[07:36:39] [Server thread/INFO]: Bhnklnd lost connection: Disconnected
+[07:36:39] [Server thread/INFO]: Bhnklnd left the game
+[07:38:10] [Server thread/INFO]: Bhnklnd[/127.0.0.1:35192] logged in with entity id 3807 at (483.7529695462984, 72.0, 215.77580890229274)
+[07:38:10] [Server thread/INFO]: Loading config from file...
+[07:38:10] [Server thread/INFO]: Bhnklnd joined the game
+[07:39:18] [Server thread/INFO]: Bhnklnd lost connection: Disconnected
+[07:39:18] [Server thread/INFO]: Bhnklnd left the game
+[07:40:49] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[07:40:49] [Server thread/INFO]: <--[HERE]
+[07:40:49] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[07:40:49] [Server thread/INFO]: <--[HERE]
+[07:40:49] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[07:40:49] [Server thread/INFO]: <--[HERE]
+[07:41:01] [Server thread/INFO]: R[/127.0.0.1:53364] logged in with entity id 4680 at (-6.5, 69.0, 0.5)
+[07:41:01] [Server thread/INFO]: Loading config from file...
+[07:41:01] [Server thread/INFO]: R joined the game
+[07:42:06] [Server thread/INFO]: R has made the advancement ['X' Marks the Spot]
+[07:42:34] [Server thread/INFO]: [R: Gave 1 [Minecart] to R]
+[07:47:54] [Server thread/INFO]: R lost connection: Disconnected
+[07:47:54] [Server thread/INFO]: R left the game
+[08:05:05] [Server thread/INFO]: Bhnklnd[/127.0.0.1:33174] logged in with entity id 11851 at (471.4760175468191, 65.0, 270.5649793395751)
+[08:05:05] [Server thread/INFO]: Loading config from file...
+[08:05:05] [Server thread/INFO]: Bhnklnd joined the game
+[08:07:00] [Server thread/INFO]: Villager class_1646['Toolsmith'/5676, l='ServerLevel[world]', x=458.33, y=66.50, z=273.49] was struck by lightning class_1538['Lightning Bolt'/12106, l='ServerLevel[world]', x=457.50, y=66.00, z=273.50].
+[08:07:00] [Server thread/INFO]: Villager class_1646['Armorer'/5361, l='ServerLevel[world]', x=459.31, y=65.56, z=273.29] was struck by lightning class_1538['Lightning Bolt'/12106, l='ServerLevel[world]', x=457.50, y=66.00, z=273.50].
+[08:07:33] [Server thread/INFO]: [Not Secure] <aj> CALL
+[08:07:45] [Server thread/INFO]: [Not Secure] <aj> OK
+[08:28:31] [Server thread/INFO]: [Bhnklnd: Set own game mode to Creative Mode]
+[08:29:05] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=175, y=71, z=145} class_2338{x=173, y=69, z=145}
+[08:29:05] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=175, y=71, z=145} class_2338{x=173, y=69, z=145}
+[08:29:43] [Server thread/INFO]: [Bhnklnd: Set own game mode to Survival Mode]
+[08:29:53] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=122, y=73, z=116} class_2338{x=123, y=71, z=119}
+[08:29:54] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=121, y=73, z=115} class_2338{x=123, y=71, z=119}
+[08:31:17] [Server thread/INFO]: aj lost connection: Timed out
+[08:31:17] [Server thread/INFO]: aj left the game
+[08:31:17] [Server thread/WARN]: handleDisconnection() called twice
+[08:31:23] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[08:31:23] [Server thread/INFO]: <--[HERE]
+[08:31:34] [Server thread/INFO]: [Bhnklnd: Set own game mode to Creative Mode]
+[08:31:56] [Server thread/INFO]: [Bhnklnd: Gave 1 [Zombie Villager Spawn Egg] to Bhnklnd]
+[08:32:19] [Server thread/INFO]: aj[/127.0.0.1:39508] logged in with entity id 17411 at (127.00510596960554, 72.0, 116.12654421736178)
+[08:32:19] [Server thread/INFO]: Loading config from file...
+[08:32:19] [Server thread/INFO]: aj joined the game
+[08:33:31] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=158, y=70, z=144} class_2338{x=157, y=70, z=144}
+[08:33:31] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=158, y=70, z=144} class_2338{x=157, y=70, z=144}
+[08:33:31] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=158, y=70, z=144} class_2338{x=157, y=70, z=144}
+[08:34:25] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=168, y=71, z=138} class_2338{x=167, y=69, z=138}
+[08:34:25] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=168, y=71, z=138} class_2338{x=167, y=69, z=138}
+[08:34:25] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=168, y=71, z=138} class_2338{x=167, y=69, z=138}
+[08:34:36] [Server thread/INFO]: [Bhnklnd: Set own game mode to Survival Mode]
+[08:35:48] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=265, y=76, z=147} class_2338{x=256, y=78, z=152}
+[08:35:49] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=265, y=76, z=147} class_2338{x=256, y=78, z=152}
+[08:35:49] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=265, y=76, z=147} class_2338{x=256, y=78, z=152}
+[08:35:49] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=265, y=76, z=147} class_2338{x=256, y=78, z=152}
+[08:35:49] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=265, y=76, z=147} class_2338{x=256, y=78, z=152}
+[08:36:27] [Server thread/INFO]: [Bhnklnd: Set own game mode to Creative Mode]
+[08:39:28] [Server thread/INFO]: [Bhnklnd: Teleported aj to Bhnklnd]
+[08:40:32] [Server thread/INFO]: [Bhnklnd: Set own game mode to Survival Mode]
+[08:53:36] [Server thread/INFO]: Villager class_1646['Butcher'/22338, l='ServerLevel[world]', x=182.95, y=69.00, z=86.49] died, message: 'Butcher was slain by Zombie'
+[08:55:47] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=122, y=73, z=124} class_2338{x=122, y=71, z=123}
+[08:55:47] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=122, y=73, z=124} class_2338{x=122, y=71, z=123}
+[08:55:50] [Server thread/INFO]: [Bhnklnd: Set own game mode to Creative Mode]
+[08:57:35] [Server thread/INFO]: [Bhnklnd: Set the time to 13000]
+[08:58:14] [Server thread/INFO]: [Bhnklnd: Set own game mode to Survival Mode]
+[09:04:58] [Server thread/INFO]: [Bhnklnd: Set own game mode to Spectator Mode]
+[09:05:05] [Server thread/INFO]: [Bhnklnd: Set own game mode to Survival Mode]
+[09:05:07] [Server thread/INFO]: [Bhnklnd: Set own game mode to Spectator Mode]
+[09:05:08] [Server thread/INFO]: [Bhnklnd: Set own game mode to Survival Mode]
+[09:05:09] [Server thread/INFO]: [Bhnklnd: Set own game mode to Creative Mode]
+[09:06:29] [Server thread/INFO]: [Bhnklnd: Gave 1 [Blue Bed] to Bhnklnd]
+[09:06:51] [Server thread/INFO]: aj has reached the goal [Zombie Doctor]
+[09:08:10] [Server thread/INFO]: [Bhnklnd: Gave 12 [Oak Trapdoor] to Bhnklnd]
+[09:08:34] [Server thread/INFO]: [Bhnklnd: Gave 12 [Spruce Trapdoor] to Bhnklnd]
+[09:11:01] [Server thread/INFO]: [Bhnklnd: Set own game mode to Survival Mode]
+[09:13:04] [Server thread/INFO]: [Bhnklnd: Set own game mode to Creative Mode]
+[09:17:43] [Server thread/INFO]: [Bhnklnd: Set own game mode to Survival Mode]
+[09:17:59] [Server thread/INFO]: [Bhnklnd: Set own game mode to Creative Mode]
+[09:18:01] [Server thread/INFO]: [Bhnklnd: Set own game mode to Survival Mode]
+[09:23:46] [Server thread/INFO]: [Bhnklnd: Set own game mode to Creative Mode]
+[09:23:46] [Server thread/INFO]: Villager class_1646['Villager'/27730, l='ServerLevel[world]', x=459.67, y=68.19, z=190.05] died, message: 'Villager was slain by Zombie'
+[09:23:53] [Server thread/INFO]: [Bhnklnd: Set own game mode to Survival Mode]
+[09:24:42] [Server thread/INFO]: [Bhnklnd: Gave 1 [Villager Spawn Egg] to Bhnklnd]
+[09:28:48] [Server thread/INFO]: [Bhnklnd: Set own game mode to Creative Mode]
+[09:29:05] [Server thread/INFO]: [Bhnklnd: Set own game mode to Spectator Mode]
+[09:29:08] [Server thread/INFO]: [Bhnklnd: Set own game mode to Creative Mode]
+[09:29:17] [Server thread/INFO]: [Bhnklnd: Set own game mode to Spectator Mode]
+[09:29:18] [Server thread/INFO]: [Bhnklnd: Set own game mode to Creative Mode]
+[09:29:21] [Server thread/INFO]: [Bhnklnd: Set own game mode to Survival Mode]
+[09:30:13] [Server thread/INFO]: [Bhnklnd: Set own game mode to Spectator Mode]
+[09:31:54] [Server thread/INFO]: [Bhnklnd: Set own game mode to Survival Mode]
+[09:32:02] [Server thread/INFO]: [Bhnklnd: Set own game mode to Creative Mode]
+[09:32:25] [Server thread/INFO]: Villager class_1646['Leatherworker'/27616, l='ServerLevel[world]', x=461.74, y=68.56, z=190.29] died, message: 'Leatherworker was slain by Zombie'
+[09:32:29] [Server thread/INFO]: [Bhnklnd: Set own game mode to Spectator Mode]
+[09:32:32] [Server thread/INFO]: Villager class_1646['Villager'/27631, l='ServerLevel[world]', x=461.30, y=68.56, z=189.55] died, message: 'Villager was slain by Zombie Villager'
+[09:32:35] [Server thread/INFO]: [Bhnklnd: Set own game mode to Creative Mode]
+[09:32:39] [Server thread/INFO]: Villager class_1646['Villager'/34343, l='ServerLevel[world]', x=461.31, y=68.56, z=190.69] died, message: 'Villager was slain by Zombie Villager'
+[09:33:00] [Server thread/INFO]: [Bhnklnd: Set own game mode to Survival Mode]
+[09:34:03] [Server thread/INFO]: aj lost connection: Disconnected
+[09:34:03] [Server thread/INFO]: aj left the game
+[09:34:48] [Server thread/INFO]: [Bhnklnd: Set own game mode to Creative Mode]
+[09:35:36] [Server thread/INFO]: [Bhnklnd: Gave 1 [Villager Spawn Egg] to Bhnklnd]
+[09:36:17] [Server thread/INFO]: Villager class_1646['Villager'/36146, l='ServerLevel[world]', x=466.24, y=72.70, z=191.79] died, message: 'Villager tried to swim in lava'
+[09:36:54] [Server thread/INFO]: [Bhnklnd: Gave 1 [Diamond Shovel] to Bhnklnd]
+[09:37:03] [Server thread/INFO]: [Bhnklnd: Set own game mode to Spectator Mode]
+[09:37:08] [Server thread/INFO]: [Bhnklnd: Set own game mode to Creative Mode]
+[09:37:16] [Server thread/INFO]: [Bhnklnd: Set own game mode to Spectator Mode]
+[09:37:21] [Server thread/INFO]: [Bhnklnd: Set own game mode to Creative Mode]
+[09:38:02] [Server thread/INFO]: [Bhnklnd: Set own game mode to Spectator Mode]
+[09:38:08] [Server thread/INFO]: [Bhnklnd: Set own game mode to Creative Mode]
+[09:38:15] [Server thread/INFO]: [Bhnklnd: Set own game mode to Spectator Mode]
+[09:38:21] [Server thread/INFO]: [Bhnklnd: Set own game mode to Creative Mode]
+[09:38:28] [Server thread/INFO]: [Bhnklnd: Set own game mode to Survival Mode]
+[09:38:41] [Server thread/INFO]: [Bhnklnd: Set own game mode to Creative Mode]
+[09:54:27] [Server thread/INFO]: [Bhnklnd: Set own game mode to Survival Mode]
+[09:54:35] [Server thread/INFO]: Bhnklnd lost connection: Disconnected
+[09:54:35] [Server thread/INFO]: Bhnklnd left the game
+[09:54:40] [Server thread/INFO]: Stopping server
+[09:54:40] [Server thread/INFO]: Saving players
+[09:54:40] [Server thread/INFO]: Saving worlds
+[09:54:40] [Server thread/INFO]: ServerLevel[world]/minecraft:overworld: waiting for 841 chunks to unload
+[09:54:40] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[09:54:40] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[09:54:40] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[09:54:40] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[09:54:40] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[09:54:40] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[09:54:40] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[09:54:40] [C2ME Storage #3/INFO]: Storage thread Thread[#56,C2ME Storage #3,5,main] stopped
+[09:54:40] [C2ME Storage #2/INFO]: Storage thread Thread[#55,C2ME Storage #2,5,main] stopped
+[09:54:40] [C2ME Storage #1/INFO]: Storage thread Thread[#54,C2ME Storage #1,5,main] stopped
+[09:54:40] [C2ME Storage #6/INFO]: Storage thread Thread[#61,C2ME Storage #6,5,main] stopped
+[09:54:40] [C2ME Storage #5/INFO]: Storage thread Thread[#60,C2ME Storage #5,5,main] stopped
+[09:54:40] [C2ME Storage #4/INFO]: Storage thread Thread[#59,C2ME Storage #4,5,main] stopped
+[09:54:40] [C2ME Storage #9/INFO]: Storage thread Thread[#65,C2ME Storage #9,5,main] stopped
+[09:54:40] [C2ME Storage #7/INFO]: Storage thread Thread[#63,C2ME Storage #7,5,main] stopped
+[09:54:40] [C2ME Storage #8/INFO]: Storage thread Thread[#64,C2ME Storage #8,5,main] stopped
