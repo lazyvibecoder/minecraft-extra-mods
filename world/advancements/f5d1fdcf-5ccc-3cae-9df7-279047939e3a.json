@@ -16,14 +16,18 @@
       "crystalline_chasm": "2025-09-26 07:21:06 +0000",
       "redwood_forest": "2025-09-18 17:54:28 +0000",
       "scrubland": "2025-09-23 08:55:49 +0000",
+      "visceral_heap": "2025-09-30 10:52:41 +0000",
       "grassland": "2025-09-20 17:13:10 +0000",
       "prairie": "2025-09-20 18:30:41 +0000",
       "erupting_inferno": "2025-09-26 07:25:32 +0000",
       "orchard": "2025-09-20 19:54:10 +0000",
+      "floodplain": "2025-09-30 09:42:43 +0000",
+      "undergrowth": "2025-09-30 10:39:53 +0000",
       "overgrown_greens": "2025-09-18 17:54:07 +0000",
       "moor": "2025-09-20 17:50:27 +0000",
       "mediterranean_forest": "2025-09-23 08:55:20 +0000",
       "highland": "2025-09-20 19:58:13 +0000",
+      "rainforest": "2025-09-30 09:41:54 +0000",
       "jacaranda_glade": "2025-09-20 18:32:50 +0000",
       "pasture": "2025-09-20 18:44:24 +0000"
     },
@@ -368,6 +372,7 @@
       "minecraft:snowy_slopes": "2025-09-20 18:53:26 +0000",
       "minecraft:dark_forest": "2025-09-18 17:58:12 +0000",
       "minecraft:forest": "2025-09-20 07:12:47 +0000",
+      "minecraft:sparse_jungle": "2025-09-30 09:43:15 +0000",
       "minecraft:river": "2025-09-18 18:07:54 +0000",
       "minecraft:dripstone_caves": "2025-09-20 08:21:19 +0000",
       "minecraft:frozen_peaks": "2025-09-20 19:07:26 +0000",
@@ -1442,13 +1447,16 @@
       "minecraft:witch": "2025-09-25 08:07:17 +0000",
       "minecraft:bogged": "2025-09-28 10:16:46 +0000",
       "minecraft:ghast": "2025-09-26 06:41:25 +0000",
+      "minecraft:hoglin": "2025-09-30 10:05:02 +0000",
       "minecraft:cave_spider": "2025-09-20 17:39:33 +0000",
       "minecraft:piglin": "2025-09-28 09:12:09 +0000",
       "minecraft:breeze": "2025-09-23 09:32:33 +0000",
       "minecraft:enderman": "2025-09-23 09:02:01 +0000",
       "minecraft:silverfish": "2025-09-23 09:19:09 +0000",
       "minecraft:stray": "2025-09-23 09:16:46 +0000",
+      "minecraft:magma_cube": "2025-09-30 10:34:12 +0000",
       "minecraft:spider": "2025-09-20 08:33:34 +0000",
+      "minecraft:piglin_brute": "2025-09-30 09:58:39 +0000",
       "minecraft:zombie": "2025-09-20 07:27:56 +0000",
       "minecraft:creeper": "2025-09-20 08:55:19 +0000",
       "minecraft:zombie_villager": "2025-09-23 17:42:26 +0000",
@@ -3463,8 +3471,10 @@
   },
   "minecraft:nether/explore_nether": {
     "criteria": {
+      "minecraft:crimson_forest": "2025-09-30 10:39:35 +0000",
       "minecraft:nether_wastes": "2025-09-26 06:50:11 +0000",
-      "minecraft:soul_sand_valley": "2025-09-26 06:38:44 +0000"
+      "minecraft:soul_sand_valley": "2025-09-26 06:38:44 +0000",
+      "minecraft:basalt_deltas": "2025-09-30 10:24:42 +0000"
     },
     "done": false
   },
@@ -4438,6 +4448,210 @@
   "lootr:1cart": {
     "criteria": {
       "opened_cart": "2025-09-29 17:09:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_blackstone_brick_wall_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2025-09-30 10:00:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_upgrade_smithing_template": {
+    "criteria": {
+      "has_netherite_upgrade_smithing_template": "2025-09-30 10:53:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_scrap_from_blasting": {
+    "criteria": {
+      "has_ancient_debris": "2025-09-30 10:19:44 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/hellbark_planks": {
+    "criteria": {
+      "has_logs": "2025-09-30 10:39:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blackstone_wall": {
+    "criteria": {
+      "has_blackstone": "2025-09-30 10:00:39 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/misc/orange_dye_from_burning_blossom": {
+    "criteria": {
+      "has_burning_blossom": "2025-09-30 10:40:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/rib_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2025-09-30 10:45:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_scrap": {
+    "criteria": {
+      "has_ancient_debris": "2025-09-30 10:19:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/enchant_item": {
+    "criteria": {
+      "enchanted_item": "2025-09-30 09:26:14 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/bookshelf_smithing": {
+    "criteria": {
+      "has_bookshelf": "2025-09-30 09:18:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_stairs_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2025-09-30 10:00:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_bricks_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2025-09-30 10:00:39 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/rose_quartz_block": {
+    "criteria": {
+      "has_rose_quartz_chunk": "2025-09-30 10:34:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_ancient_debris": {
+    "criteria": {
+      "ancient_debris": "2025-09-30 10:19:44 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/decorations/blackstone_bulb": {
+    "criteria": {
+      "has_blackstone": "2025-09-30 10:00:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_stairs_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2025-09-30 10:00:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_blackstone_wall_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2025-09-30 10:00:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_polished_blackstone_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2025-09-30 10:00:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_basalt": {
+    "criteria": {
+      "has_basalt": "2025-09-30 10:08:31 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/decorations/blackstone_spines": {
+    "criteria": {
+      "has_blackstone": "2025-09-30 10:00:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blackstone_stairs": {
+    "criteria": {
+      "has_blackstone": "2025-09-30 10:00:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blackstone_slab_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2025-09-30 10:00:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_slab_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2025-09-30 10:00:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone": {
+    "criteria": {
+      "has_blackstone": "2025-09-30 10:00:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blackstone_slab": {
+    "criteria": {
+      "has_blackstone": "2025-09-30 10:00:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_slab_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2025-09-30 10:00:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2025-09-30 10:00:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_basalt_from_basalt_stonecutting": {
+    "criteria": {
+      "has_basalt": "2025-09-30 10:08:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blackstone_wall_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2025-09-30 10:00:39 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/hellbark_wood": {
+    "criteria": {
+      "has_log": "2025-09-30 10:39:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/rib_armor_trim_smithing_template": {
+    "criteria": {
+      "has_rib_armor_trim_smithing_template": "2025-09-30 10:45:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_basalt": {
+    "criteria": {
+      "has_basalt": "2025-09-30 10:08:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blackstone_stairs_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2025-09-30 10:00:39 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/decorations/blackstone_spines_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2025-09-30 10:00:39 +0000"
     },
     "done": true
   },
