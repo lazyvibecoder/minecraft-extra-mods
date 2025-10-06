@@ -1489,6 +1489,7 @@
       "minecraft:zombified_piglin": "2025-09-28 09:14:17 +0000",
       "minecraft:witch": "2025-09-25 08:07:17 +0000",
       "minecraft:wither_skeleton": "2025-10-02 16:44:02 +0000",
+      "minecraft:husk": "2025-10-06 17:48:48 +0000",
       "minecraft:cave_spider": "2025-09-20 17:39:33 +0000",
       "minecraft:piglin": "2025-09-28 09:12:09 +0000",
       "minecraft:enderman": "2025-09-23 09:02:01 +0000",
@@ -1496,6 +1497,7 @@
       "minecraft:stray": "2025-09-23 09:16:46 +0000",
       "minecraft:vex": "2025-10-05 12:10:17 +0000",
       "minecraft:zombie": "2025-09-20 07:27:56 +0000",
+      "minecraft:drowned": "2025-10-06 19:47:22 +0000",
       "minecraft:zombie_villager": "2025-09-23 17:42:26 +0000"
     },
     "done": false
@@ -5847,57 +5849,9 @@
     },
     "done": true
   },
-  "biomesoplenty:recipes/building_blocks/stripped_pine_wood": {
-    "criteria": {
-      "has_log": "2025-10-05 11:01:44 +0000"
-    },
-    "done": true
-  },
-  "biomesoplenty:recipes/misc/purple_dye_from_tall_lavender": {
-    "criteria": {
-      "has_tall_lavender": "2025-10-05 11:25:21 +0000"
-    },
-    "done": true
-  },
-  "biomesoplenty:recipes/misc/cyan_dye_from_glowflower": {
-    "criteria": {
-      "has_glowflower": "2025-10-05 11:11:19 +0000"
-    },
-    "done": true
-  },
-  "minecraft:adventure/voluntary_exile": {
-    "criteria": {
-      "voluntary_exile": "2025-10-05 11:57:33 +0000"
-    },
-    "done": true
-  },
-  "biomesoplenty:recipes/building_blocks/jacaranda_planks": {
-    "criteria": {
-      "has_logs": "2025-10-05 11:35:14 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/black_dye_from_wither_rose": {
-    "criteria": {
-      "has_wither_rose": "2025-10-05 11:33:25 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/dye_red_carpet": {
     "criteria": {
       "has_needed_dye": "2025-10-05 10:50:24 +0000"
-    },
-    "done": true
-  },
-  "minecraft:adventure/hero_of_the_village": {
-    "criteria": {
-      "hero_of_the_village": "2025-10-05 12:18:23 +0000"
-    },
-    "done": true
-  },
-  "biomesoplenty:recipes/decorations/pine_hanging_sign": {
-    "criteria": {
-      "has_stripped_logs": "2025-10-05 11:01:44 +0000"
     },
     "done": true
   },
@@ -5916,12 +5870,6 @@
   "minecraft:recipes/misc/purple_dye": {
     "criteria": {
       "has_red_dye": "2025-10-05 10:50:24 +0000"
-    },
-    "done": true
-  },
-  "biomesoplenty:recipes/decorations/jacaranda_hanging_sign": {
-    "criteria": {
-      "has_stripped_logs": "2025-10-05 11:36:34 +0000"
     },
     "done": true
   },
@@ -5955,9 +5903,63 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/magenta_dye_from_blue_red_white_dye": {
+    "criteria": {
+      "has_rose_red": "2025-10-05 10:50:24 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/stripped_pine_wood": {
+    "criteria": {
+      "has_log": "2025-10-05 11:01:44 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/decorations/pine_hanging_sign": {
+    "criteria": {
+      "has_stripped_logs": "2025-10-05 11:01:44 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/misc/cyan_dye_from_glowflower": {
+    "criteria": {
+      "has_glowflower": "2025-10-05 11:11:19 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/misc/purple_dye_from_lavender": {
+    "criteria": {
+      "has_lavender": "2025-10-05 11:25:19 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/misc/purple_dye_from_tall_lavender": {
+    "criteria": {
+      "has_tall_lavender": "2025-10-05 11:25:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/black_dye_from_wither_rose": {
+    "criteria": {
+      "has_wither_rose": "2025-10-05 11:33:25 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/jacaranda_planks": {
+    "criteria": {
+      "has_logs": "2025-10-05 11:35:14 +0000"
+    },
+    "done": true
+  },
   "biomesoplenty:recipes/building_blocks/jacaranda_wood": {
     "criteria": {
       "has_log": "2025-10-05 11:35:14 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/decorations/jacaranda_hanging_sign": {
+    "criteria": {
+      "has_stripped_logs": "2025-10-05 11:36:34 +0000"
     },
     "done": true
   },
@@ -5967,15 +5969,171 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/magenta_dye_from_blue_red_white_dye": {
+  "minecraft:adventure/voluntary_exile": {
     "criteria": {
-      "has_rose_red": "2025-10-05 10:50:24 +0000"
+      "voluntary_exile": "2025-10-05 11:57:33 +0000"
     },
     "done": true
   },
-  "biomesoplenty:recipes/misc/purple_dye_from_lavender": {
+  "minecraft:adventure/hero_of_the_village": {
     "criteria": {
-      "has_lavender": "2025-10-05 11:25:19 +0000"
+      "hero_of_the_village": "2025-10-05 12:18:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/totem_of_undying": {
+    "criteria": {
+      "used_totem": "2025-10-06 17:19:34 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/jacaranda_slab": {
+    "criteria": {
+      "has_planks": "2025-10-06 17:35:05 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/decorations/jacaranda_fence": {
+    "criteria": {
+      "has_planks": "2025-10-06 17:35:05 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/redstone/jacaranda_button": {
+    "criteria": {
+      "has_planks": "2025-10-06 17:35:05 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/redstone/jacaranda_fence_gate": {
+    "criteria": {
+      "has_planks": "2025-10-06 17:35:05 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/decorations/jacaranda_sign": {
+    "criteria": {
+      "has_planks": "2025-10-06 17:35:05 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/jacaranda_stairs": {
+    "criteria": {
+      "has_planks": "2025-10-06 17:35:05 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/redstone/jacaranda_trapdoor": {
+    "criteria": {
+      "has_planks": "2025-10-06 17:35:05 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/redstone/jacaranda_pressure_plate": {
+    "criteria": {
+      "has_planks": "2025-10-06 17:35:05 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/redstone/jacaranda_door": {
+    "criteria": {
+      "has_planks": "2025-10-06 17:35:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/beehive": {
+    "criteria": {
+      "has_honeycomb": "2025-10-06 17:47:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/honeycomb_block": {
+    "criteria": {
+      "has_honeycomb": "2025-10-06 17:47:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/bamboo_sign": {
+    "criteria": {
+      "has_planks": "2025-10-06 18:05:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/bamboo_door": {
+    "criteria": {
+      "has_planks": "2025-10-06 18:05:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/bamboo_fence": {
+    "criteria": {
+      "has_planks": "2025-10-06 18:05:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/bamboo_trapdoor": {
+    "criteria": {
+      "has_planks": "2025-10-06 18:05:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/bamboo_pressure_plate": {
+    "criteria": {
+      "has_planks": "2025-10-06 18:05:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bamboo_slab": {
+    "criteria": {
+      "has_planks": "2025-10-06 18:05:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/bamboo_button": {
+    "criteria": {
+      "has_planks": "2025-10-06 18:05:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/bamboo_fence_gate": {
+    "criteria": {
+      "has_planks": "2025-10-06 18:05:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bamboo_stairs": {
+    "criteria": {
+      "has_planks": "2025-10-06 18:05:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/trim_with_all_exclusive_armor_patterns": {
+    "criteria": {
+      "armor_trimmed_minecraft:rib_armor_trim_smithing_template_smithing_trim": "2025-10-06 20:07:48 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/misc/coast_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2025-10-06 20:08:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bolt_armor_trim_smithing_template": {
+    "criteria": {
+      "has_bolt_armor_trim_smithing_template": "2025-10-06 19:37:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bolt_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2025-10-06 19:37:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coast_armor_trim_smithing_template": {
+    "criteria": {
+      "has_coast_armor_trim_smithing_template": "2025-10-06 20:08:11 +0000"
     },
     "done": true
   },
