@@ -34,6 +34,7 @@
       "dune_beach": "2025-10-11 17:19:29 +0000",
       "erupting_inferno": "2025-09-26 07:25:47 +0000",
       "floodplain": "2025-09-30 09:42:45 +0000",
+      "seasonal_forest": "2025-10-12 16:57:22 +0000",
       "highland": "2025-09-20 19:58:31 +0000",
       "volcano": "2025-10-04 18:10:50 +0000",
       "pasture": "2025-09-20 18:44:28 +0000",
@@ -50,6 +51,7 @@
       "grassland": "2025-09-20 17:13:28 +0000",
       "prairie": "2025-09-20 18:30:43 +0000",
       "snowy_fir_clearing": "2025-10-11 17:05:16 +0000",
+      "snowy_coniferous_forest": "2025-10-12 17:41:57 +0000",
       "tundra": "2025-10-11 17:07:42 +0000",
       "gravel_beach": "2025-10-11 16:56:55 +0000",
       "orchard": "2025-10-05 11:21:23 +0000",
@@ -389,6 +391,7 @@
       "minecraft:snowy_slopes": "2025-09-20 19:11:49 +0000",
       "minecraft:old_growth_pine_taiga": "2025-10-11 17:16:58 +0000",
       "minecraft:forest": "2025-09-20 16:57:41 +0000",
+      "minecraft:taiga": "2025-10-12 16:52:48 +0000",
       "minecraft:deep_ocean": "2025-10-11 17:20:01 +0000",
       "minecraft:deep_cold_ocean": "2025-10-04 16:31:47 +0000",
       "minecraft:frozen_ocean": "2025-10-04 16:39:26 +0000",
@@ -399,6 +402,7 @@
       "minecraft:cherry_grove": "2025-09-20 18:51:55 +0000",
       "minecraft:sunflower_plains": "2025-09-20 18:46:05 +0000",
       "minecraft:birch_forest": "2025-09-18 18:02:54 +0000",
+      "minecraft:old_growth_spruce_taiga": "2025-10-12 17:35:16 +0000",
       "minecraft:wooded_badlands": "2025-10-04 18:10:39 +0000",
       "minecraft:warm_ocean": "2025-10-10 18:29:01 +0000",
       "minecraft:deep_lukewarm_ocean": "2025-10-11 18:22:24 +0000",
@@ -5354,7 +5358,8 @@
     "criteria": {
       "minecraft:striped": "2025-10-04 19:18:27 +0000",
       "minecraft:woods": "2025-10-10 18:07:37 +0000",
-      "minecraft:pale": "2025-10-10 19:06:38 +0000"
+      "minecraft:pale": "2025-10-10 19:06:38 +0000",
+      "minecraft:ashen": "2025-10-12 17:46:46 +0000"
     },
     "done": false
   },
@@ -6594,6 +6599,36 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/coast_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2025-10-11 18:26:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coast_armor_trim_smithing_template": {
+    "criteria": {
+      "has_coast_armor_trim_smithing_template": "2025-10-11 18:26:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp": {
+    "criteria": {
+      "has_dried_kelp_block": "2025-10-11 18:27:12 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/sponge": {
+    "criteria": {
+      "has_sponge": "2025-10-11 18:27:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/raw_gold": {
+    "criteria": {
+      "has_raw_gold_block": "2025-10-11 18:28:23 +0000"
+    },
+    "done": true
+  },
   "biomesoplenty:recipes/building_blocks/pine_stairs": {
     "criteria": {
       "has_planks": "2025-10-11 18:40:16 +0000"
@@ -6609,24 +6644,6 @@
   "biomesoplenty:recipes/redstone/pine_button": {
     "criteria": {
       "has_planks": "2025-10-11 18:40:16 +0000"
-    },
-    "done": true
-  },
-  "travelersbackpack:recipes/misc/sponge": {
-    "criteria": {
-      "has_sponge": "2025-10-11 18:27:35 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/coast_armor_trim_smithing_template_smithing_trim": {
-    "criteria": {
-      "has_smithing_trim_template": "2025-10-11 18:26:27 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/raw_gold": {
-    "criteria": {
-      "has_raw_gold_block": "2025-10-11 18:28:23 +0000"
     },
     "done": true
   },
@@ -6648,12 +6665,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/coast_armor_trim_smithing_template": {
-    "criteria": {
-      "has_coast_armor_trim_smithing_template": "2025-10-11 18:26:27 +0000"
-    },
-    "done": true
-  },
   "biomesoplenty:recipes/redstone/pine_fence_gate": {
     "criteria": {
       "has_planks": "2025-10-11 18:40:16 +0000"
@@ -6672,9 +6683,147 @@
     },
     "done": true
   },
-  "minecraft:recipes/food/dried_kelp": {
+  "minecraft:recipes/combat/netherite_chestplate_smithing": {
     "criteria": {
-      "has_dried_kelp_block": "2025-10-11 18:27:12 +0000"
+      "has_netherite_ingot": "2025-10-12 20:15:38 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/ghast": {
+    "criteria": {
+      "has_ghast_tear": "2025-10-12 19:23:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dried_ghast": {
+    "criteria": {
+      "has_ghast_tear": "2025-10-12 19:23:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_sword_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-10-12 20:15:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_leggings_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-10-12 20:15:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_rabbit": {
+    "criteria": {
+      "has_rabbit": "2025-10-12 20:30:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_hoe_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-10-12 20:15:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_rabbit_from_smoking": {
+    "criteria": {
+      "has_rabbit": "2025-10-12 20:30:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_rabbit_from_campfire_cooking": {
+    "criteria": {
+      "has_rabbit": "2025-10-12 20:30:59 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/diamond_smithing": {
+    "criteria": {
+      "has_diamond": "2025-10-12 19:36:03 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/quartz_smithing": {
+    "criteria": {
+      "has_quartz": "2025-10-12 19:34:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_ingot": {
+    "criteria": {
+      "has_netherite_scrap": "2025-10-12 18:45:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_helmet_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-10-12 20:15:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/netherite_block": {
+    "criteria": {
+      "has_netherite_ingot": "2025-10-12 20:15:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_boots_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-10-12 20:15:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_shovel_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-10-12 20:15:38 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/netherite": {
+    "criteria": {
+      "has_netherite_ingot": "2025-10-12 20:15:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/snout_armor_trim_smithing_template": {
+    "criteria": {
+      "has_snout_armor_trim_smithing_template": "2025-10-12 18:42:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_chiseled_copper": {
+    "criteria": {
+      "has_waxed_cut_copper_slab": "2025-10-12 18:13:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_axe_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-10-12 20:15:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/snout_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2025-10-12 18:42:21 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/bee_smithing": {
+    "criteria": {
+      "has_bee": "2025-10-12 18:27:57 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/netherite_tier_upgrade": {
+    "criteria": {
+      "has_netherite_ingot": "2025-10-12 20:15:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_pickaxe_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-10-12 20:15:38 +0000"
     },
     "done": true
   },
