@@ -19,36 +19,44 @@
   },
   "biomesoplenty:biomesoplenty/all_biomes": {
     "criteria": {
-      "spider_nest": "2025-09-20 17:13:43 +0000",
       "woodland": "2025-09-23 17:52:42 +0000",
-      "dryland": "2025-10-04 19:19:13 +0000",
-      "wasteland": "2025-10-04 19:00:04 +0000",
       "shrubland": "2025-09-20 17:56:41 +0000",
       "snowblossom_grove": "2025-10-02 18:08:23 +0000",
       "rocky_shrubland": "2025-10-02 17:35:12 +0000",
-      "lush_desert": "2025-10-04 19:18:25 +0000",
-      "redwood_forest": "2025-09-18 17:54:28 +0000",
       "scrubland": "2025-09-23 08:55:49 +0000",
-      "visceral_heap": "2025-09-30 10:52:41 +0000",
       "end_wilds": "2025-10-10 20:27:11 +0000",
-      "wasteland_steppe": "2025-10-04 19:02:49 +0000",
-      "dune_beach": "2025-10-11 17:19:28 +0000",
       "erupting_inferno": "2025-09-26 07:25:32 +0000",
       "floodplain": "2025-09-30 09:42:43 +0000",
-      "seasonal_forest": "2025-10-02 17:52:01 +0000",
+      "lush_savanna": "2025-10-13 19:26:55 +0000",
       "highland": "2025-09-20 19:58:13 +0000",
-      "volcano": "2025-10-04 18:15:35 +0000",
-      "pasture": "2025-09-20 18:44:24 +0000",
-      "rocky_rainforest": "2025-10-04 18:38:10 +0000",
       "jade_cliffs": "2025-10-02 17:36:42 +0000",
-      "volcanic_plains": "2025-10-02 17:25:33 +0000",
       "mystic_grove": "2025-09-23 08:27:24 +0000",
       "cold_desert": "2025-10-11 17:07:37 +0000",
-      "lavender_field": "2025-09-20 18:47:43 +0000",
       "old_growth_woodland": "2025-09-23 17:49:46 +0000",
       "maple_woods": "2025-10-02 17:55:07 +0000",
       "end_flats": "2025-10-10 20:13:19 +0000",
       "crystalline_chasm": "2025-09-26 07:21:06 +0000",
+      "withered_abyss": "2025-10-13 18:00:57 +0000",
+      "orchard": "2025-09-20 19:54:10 +0000",
+      "field": "2025-10-02 17:48:21 +0000",
+      "overgrown_greens": "2025-09-18 17:54:07 +0000",
+      "moor": "2025-09-20 17:50:27 +0000",
+      "mediterranean_forest": "2025-09-23 08:55:20 +0000",
+      "coniferous_forest": "2025-10-02 17:49:14 +0000",
+      "spider_nest": "2025-09-20 17:13:43 +0000",
+      "dryland": "2025-10-04 19:19:13 +0000",
+      "wasteland": "2025-10-04 19:00:04 +0000",
+      "lush_desert": "2025-10-04 19:18:25 +0000",
+      "redwood_forest": "2025-09-18 17:54:28 +0000",
+      "visceral_heap": "2025-09-30 10:52:41 +0000",
+      "wasteland_steppe": "2025-10-04 19:02:49 +0000",
+      "dune_beach": "2025-10-11 17:19:28 +0000",
+      "seasonal_forest": "2025-10-02 17:52:01 +0000",
+      "volcano": "2025-10-04 18:15:35 +0000",
+      "pasture": "2025-09-20 18:44:24 +0000",
+      "rocky_rainforest": "2025-10-04 18:38:10 +0000",
+      "volcanic_plains": "2025-10-02 17:25:33 +0000",
+      "lavender_field": "2025-09-20 18:47:43 +0000",
       "pumpkin_patch": "2025-10-02 17:54:15 +0000",
       "grassland": "2025-09-20 17:13:10 +0000",
       "prairie": "2025-09-20 18:30:41 +0000",
@@ -57,15 +65,9 @@
       "tundra": "2025-10-11 17:07:39 +0000",
       "glowing_grotto": "2025-10-10 19:01:47 +0000",
       "gravel_beach": "2025-10-11 16:57:02 +0000",
-      "orchard": "2025-09-20 19:54:10 +0000",
-      "field": "2025-10-02 17:48:21 +0000",
       "undergrowth": "2025-09-30 10:39:53 +0000",
-      "overgrown_greens": "2025-09-18 17:54:07 +0000",
-      "moor": "2025-09-20 17:50:27 +0000",
-      "mediterranean_forest": "2025-09-23 08:55:20 +0000",
       "rainforest": "2025-09-30 09:41:54 +0000",
-      "crag": "2025-10-02 17:48:19 +0000",
-      "coniferous_forest": "2025-10-02 17:49:14 +0000"
+      "crag": "2025-10-02 17:48:19 +0000"
     },
     "done": false
   },
@@ -5928,6 +5930,7 @@
   "minecraft:adventure/trim_with_all_exclusive_armor_patterns": {
     "criteria": {
       "armor_trimmed_minecraft:spire_armor_trim_smithing_template_smithing_trim": "2025-10-10 20:43:37 +0000",
+      "armor_trimmed_minecraft:vex_armor_trim_smithing_template_smithing_trim": "2025-10-13 20:22:00 +0000",
       "armor_trimmed_minecraft:rib_armor_trim_smithing_template_smithing_trim": "2025-10-06 20:07:48 +0000",
       "armor_trimmed_minecraft:snout_armor_trim_smithing_template_smithing_trim": "2025-10-11 18:43:01 +0000"
     },
@@ -6565,6 +6568,7 @@
   },
   "minecraft:husbandry/whole_pack": {
     "criteria": {
+      "minecraft:spotted": "2025-10-13 19:27:40 +0000",
       "minecraft:chestnut": "2025-10-11 17:09:47 +0000",
       "minecraft:woods": "2025-10-11 17:31:54 +0000"
     },
@@ -6603,6 +6607,159 @@
   "minecraft:recipes/decorations/armor_stand": {
     "criteria": {
       "has_stone_slab": "2025-10-11 18:42:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_chestplate_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-10-12 20:51:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_sword_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-10-12 20:51:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_leggings_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-10-12 20:51:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_hoe_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-10-12 20:51:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_helmet_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-10-12 20:51:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/netherite_block": {
+    "criteria": {
+      "has_netherite_ingot": "2025-10-12 20:51:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_boots_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-10-12 20:51:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_shovel_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-10-12 20:51:40 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/netherite": {
+    "criteria": {
+      "has_netherite_ingot": "2025-10-12 20:51:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_axe_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-10-12 20:51:40 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/netherite_tier_upgrade": {
+    "criteria": {
+      "has_netherite_ingot": "2025-10-12 20:51:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_pickaxe_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-10-12 20:51:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_orange_sandstone_from_orange_sandstone_stonecutting": {
+    "criteria": {
+      "has_orange_sandstone": "2025-10-13 17:32:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_orange_sandstone_from_orange_sandstone_stonecutting": {
+    "criteria": {
+      "has_orange_sandstone": "2025-10-13 17:32:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_orange_sandstone_slab_from_orange_sandstone_stonecutting": {
+    "criteria": {
+      "has_orange_sandstone": "2025-10-13 17:32:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/orange_sandstone_slab_from_orange_sandstone_stonecutting": {
+    "criteria": {
+      "has_orange_sandstone": "2025-10-13 17:32:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/orange_sandstone_stairs_from_orange_sandstone_stonecutting": {
+    "criteria": {
+      "has_orange_sandstone": "2025-10-13 17:32:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/orange_sandstone_wall_from_orange_sandstone_stonecutting": {
+    "criteria": {
+      "has_orange_sandstone": "2025-10-13 17:32:29 +0000"
+    },
+    "done": true
+  },
+  "tooltrims:adventure/shiny_tools": {
+    "criteria": {
+      "crafted_tracks_quartz": "2025-10-13 20:12:54 +0000"
+    },
+    "done": true
+  },
+  "tooltrims:adventure/tools_of_all_styles": {
+    "criteria": {
+      "crafted_tracks_diamond": "2025-10-13 20:16:53 +0000",
+      "crafted_tracks_redstone": "2025-10-13 20:17:04 +0000",
+      "crafted_tracks_quartz": "2025-10-13 20:12:54 +0000",
+      "crafted_tracks_gold": "2025-10-13 20:14:39 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/misc/vex_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2025-10-13 19:51:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/resin_brick": {
+    "criteria": {
+      "has_resin_clump": "2025-10-13 19:59:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/vex_armor_trim_smithing_template": {
+    "criteria": {
+      "has_vex_armor_trim_smithing_template": "2025-10-13 19:51:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/resin_block": {
+    "criteria": {
+      "has_resin_clump": "2025-10-13 19:59:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/resin_bricks": {
+    "criteria": {
+      "has_resin_brick": "2025-10-13 20:15:20 +0000"
     },
     "done": true
   },
