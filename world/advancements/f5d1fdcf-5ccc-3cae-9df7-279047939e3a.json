@@ -391,6 +391,7 @@
       "cooked_chicken": "2025-09-20 17:05:37 +0000",
       "enchanted_golden_apple": "2025-10-01 17:15:21 +0000",
       "potato": "2025-09-23 08:42:38 +0000",
+      "pumpkin_pie": "2025-10-15 11:56:10 +0000",
       "carrot": "2025-09-23 09:31:17 +0000"
     },
     "done": false
@@ -401,6 +402,7 @@
       "minecraft:snowy_slopes": "2025-09-20 18:53:26 +0000",
       "minecraft:old_growth_pine_taiga": "2025-10-11 17:18:30 +0000",
       "minecraft:forest": "2025-09-20 07:12:47 +0000",
+      "minecraft:taiga": "2025-10-15 11:35:40 +0000",
       "minecraft:deep_ocean": "2025-10-11 17:20:01 +0000",
       "minecraft:deep_cold_ocean": "2025-10-02 18:14:58 +0000",
       "minecraft:frozen_ocean": "2025-10-02 18:01:09 +0000",
@@ -1485,6 +1487,7 @@
       "minecraft:spider": "2025-09-20 08:33:34 +0000",
       "minecraft:piglin_brute": "2025-09-30 09:58:39 +0000",
       "minecraft:creeper": "2025-09-20 08:55:19 +0000",
+      "minecraft:wither": "2025-10-14 19:29:28 +0000",
       "minecraft:slime": "2025-09-28 11:30:18 +0000",
       "minecraft:evoker": "2025-10-05 12:18:05 +0000",
       "minecraft:phantom": "2025-09-27 09:00:28 +0000",
@@ -6718,6 +6721,30 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/vex_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2025-10-13 19:51:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/vex_armor_trim_smithing_template": {
+    "criteria": {
+      "has_vex_armor_trim_smithing_template": "2025-10-13 19:51:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/resin_brick": {
+    "criteria": {
+      "has_resin_clump": "2025-10-13 19:59:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/resin_block": {
+    "criteria": {
+      "has_resin_clump": "2025-10-13 19:59:02 +0000"
+    },
+    "done": true
+  },
   "tooltrims:adventure/shiny_tools": {
     "criteria": {
       "crafted_tracks_quartz": "2025-10-13 20:12:54 +0000"
@@ -6733,33 +6760,45 @@
     },
     "done": false
   },
-  "minecraft:recipes/misc/vex_armor_trim_smithing_template_smithing_trim": {
-    "criteria": {
-      "has_smithing_trim_template": "2025-10-13 19:51:04 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/resin_brick": {
-    "criteria": {
-      "has_resin_clump": "2025-10-13 19:59:02 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/vex_armor_trim_smithing_template": {
-    "criteria": {
-      "has_vex_armor_trim_smithing_template": "2025-10-13 19:51:04 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/resin_block": {
-    "criteria": {
-      "has_resin_clump": "2025-10-13 19:59:02 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/resin_bricks": {
     "criteria": {
       "has_resin_brick": "2025-10-13 20:15:20 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:functionality_upgrade": {
+    "criteria": {
+      "functionality_upgrade": "2025-10-14 18:17:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/summon_wither": {
+    "criteria": {
+      "summoned": "2025-10-14 19:05:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/beacon": {
+    "criteria": {
+      "has_nether_star": "2025-10-14 19:29:33 +0000"
+    },
+    "done": true
+  },
+  "waystones:recipes/decorations/mossy_waystone_from_vines": {
+    "criteria": {
+      "has_waystone": "2025-10-15 11:41:56 +0000"
+    },
+    "done": true
+  },
+  "waystones:recipes/decorations/mossy_waystone_from_moss_blocks": {
+    "criteria": {
+      "has_waystone": "2025-10-15 11:41:56 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:custom_backpack": {
+    "criteria": {
+      "custom_backpack": "2025-10-15 11:46:27 +0000"
     },
     "done": true
   },
